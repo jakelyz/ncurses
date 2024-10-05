@@ -11,7 +11,8 @@ targetType "sourceLibrary"  # .di files only
 targetName "ncurses-d"
 
 # Howebrew installs libncurses here:
-lflags "-L/usr/local/opt/ncurses/lib" platform="osx"
+lflags "-L/usr/local/opt/ncurses/lib" platform="osx-x86_64"
+lflags "-L/opt/homebrew/opt/ncurses/lib" platform="osx-aarch64"
 
 configuration "minimal" {
 	libs "ncursesw"

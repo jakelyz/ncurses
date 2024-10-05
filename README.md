@@ -41,7 +41,7 @@ versions "NCURSES_REENTRANT"
 
 ## Building on macOS
 
-The stock ncurses libraries on macOS don't include the wide libraries. Thus the full ncurses version needs to be installed with [Homebrew](https://brew.sh/). Homebrew installs ncurses below ```/usr/local/opt/ncurses```, where the dub configuration will pick it up.
+The stock ncurses libraries on macOS don't include the wide libraries. Thus the full ncurses version needs to be installed with [Homebrew](https://brew.sh/). Homebrew installs ncurses below ```/usr/local/opt/ncurses``` (macOS Intel) or ```/opt/homebrew/opt/ncurses``` (Apple Silicon), where the dub configuration will pick it up.
 
 First install Homebrew using the instructions on the web site, then you can add the ncurses package with
 
